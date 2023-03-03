@@ -5,7 +5,6 @@ box-sizing: border-box;
 }
 
 .button{
-	background-color: aqua;
 	text-align: center;
 }
 .simpleButton{
@@ -15,4 +14,10 @@ box-sizing: border-box;
 	font-weight: bolder;
 	color: white;
 	border-radius: 6px;
+	box-shadow: 2px 2px 1px gray;
+}
+
+.simpleButton:active{
+	transform: translateY(2px);
+	box-shadow: 0px 0px 1px gray;
 }
