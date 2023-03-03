@@ -1,3 +1,7 @@
+.button{
+	background-color: aqua;
+	text-align: center;
+}
 .simpleButton{
 	background-color: red;
 	padding: .5rem 1rem;
