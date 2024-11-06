@@ -1,0 +1,140 @@
+const responseForSimulationPage = {
+    dataCalcoloInteressi: "2023-05-30",
+    importoVersato: 760002.02,
+    importoVersatoBanca: 875.11,
+    importoVersatoEnte: 2625.32,
+    interessiDiVersamento: 101.33,
+    interessiDiVersamentoBanca: 4.22,
+    interessiDiVersamentoEnte: 0.00,
+    interessiDiConguaglio: 100.02,
+    interessiDiConguaglioBanca: 7.31,
+    interessiDiConguaglioEnte: 0.00,
+    interessiTotaliDiVersamento: 0.01,
+    importoPenale: 0.20,
+    //isConfermaOperazioneAttivo - true renders Conferma versamento button
+    isConfermaOperazioneAttivo:true,
+    capitaleVersato: 10.02,
+    importoRataDopoRiduzione: 0.52,
+    warningMessageBonificoFT: "Disporre bonifico di EURO 10,00 verso IBAN XXXXXXXXXXXXXXXXXXXXXXXXXXX.",
+    warningMessagePiuRichRimbFT: "Presente richiesta di revoca parziale quota Ente, procedere comunque con la riduzione pro quota su piano Banca e piano Ente?",
+    table: {
+        columnNames: [ "Numero rata", "Debito residuo", "Data calcolo interessi", "Importo penale", "Importo versato", "Interesi di conguaglio", "Interesi di versamento", "Interesi totali di versamento" ],
+        data: [
+            {
+                XnumeroRata: {value: 1, type: "integer"},
+                debitoResiduo: {value: 75550.55, type: "money"},
+                dataCalcoloInteressi: {value: "2023-06-10", type: "date"},
+                importoPenale: {value: 100.23, type: "money"},
+                importoVersato: {value: 1212, type: "money"},
+                interessiDiConguaglio: {value: 26.79, type: "money"},
+                interessiDiVersamento: {value: 473.21, type: "money"},
+                interessiTotaliDiVersamento: {value: 512.43, type: "money"},
+            },
+            {
+                numeroRata: {value: 2, type: "integer"},
+                debitoResiduo: {value: 75550.55, type: "money"},
+                dataCalcoloInteressi: {value: "2023-06-10", type: "date"},
+                importoPenale: {value: 100.23, type: "money"},
+                importoVersato: {value: 1212, type: "money"},
+                interessiDiConguaglio: {value: 26.79, type: "money"},
+                interessiDiVersamento: {value: 473.21, type: "money"},
+                interessiTotaliDiVersamento: {value: 512.43, type: "money"},
+            }, 
+            {
+                numeroRata: {value: 3, type: "integer"},
+                debitoResiduo: {value: 75550.55, type: "money"},
+                dataCalcoloInteressi: {value: "2023-06-10", type: "date"},
+                importoPenale: {value: 100.23, type: "money"},
+                importoVersato: {value: 1212, type: "money"},
+                interessiDiConguaglio: {value: 26.79, type: "money"},
+                interessiDiVersamento: {value: 473.21, type: "money"},
+                interessiTotaliDiVersamento: {value: 512.43, type: "money"},
+            }, 
+            {
+                numeroRata: {value: 4, type: "integer"},
+                debitoResiduo: {value: 75550.55, type: "money"},
+                dataCalcoloInteressi: {value: "2023-06-10", type: "date"},
+                importoPenale: {value: 100.23, type: "money"},
+                importoVersato: {value: 1212, type: "money"},
+                interessiDiConguaglio: {value: 26.79, type: "money"},
+                interessiDiVersamento: {value: 473.21, type: "money"},
+                interessiTotaliDiVersamento: {value: 512.43, type: "money"},
+            }, 
+            {
+                numeroRata: {value: 5, type: "integer"},
+                debitoResiduo: {value: 75550.55, type: "money"},
+                dataCalcoloInteressi: {value: "2023-06-10", type: "date"},
+                importoPenale: {value: 100.23, type: "money"},
+                importoVersato: {value: 1212, type: "money"},
+                interessiDiConguaglio: {value: 26.79, type: "money"},
+                interessiDiVersamento: {value: 473.21, type: "money"},
+                interessiTotaliDiVersamento: {value: 512.43, type: "money"},
+            }, 
+           
+        ]
+    },
+    // rate: [
+    //     {
+    //         numeroRata: 1,
+    //         debitoResiduo: 75550.55,
+    //         importo: 85550.55,
+    //         quotaInteressi: 10000.01,
+    //         quotaCapitale: 75550.55,
+    //         debitoEstinto: 75550.55,
+    //         dataDecorrenza: "2022-11-22",
+    //         dataScadenza: "2022-11-21",
+    //         newItem: "Some data",
+    //         otherData: 123
+    //     },
+    //     {
+    //         numeroRata: 2,
+    //         debitoResiduo: 75550.55,
+    //         importo: 85550.55,
+    //         quotaInteressi: 10000.01,
+    //         quotaCapitale: 75550.55,
+    //         debitoEstinto: 75550.55,
+    //         dataDecorrenza: "2021-03-17",
+    //         dataScadenza: "2021-03-17",
+    //         newItem: "Some data",
+    //         otherData: 123
+    //     },
+    //     {
+    //         numeroRata: 3,
+    //         debitoResiduo: 75550.55,
+    //         importo: 85550.55,
+    //         quotaInteressi: 10000.01,
+    //         quotaCapitale: 75550.55,
+    //         debitoEstinto: 75550.55,
+    //         dataDecorrenza: "2022-06-09",
+    //         dataScadenza: "2022-06-08",
+    //         newItem: "Some data",
+    //         otherData: 123
+    //     },
+    //     {
+    //         numeroRata: 4,
+    //         debitoResiduo: 75550.55,
+    //         importo: 85550.55,
+    //         quotaInteressi: 10000.01,
+    //         quotaCapitale: 75550.55,
+    //         debitoEstinto: 75550.55,
+    //         dataDecorrenza: "2023-08-25",
+    //         dataScadenza: "2023-08-24",
+    //         newItem: "Some data",
+    //         otherData: 123
+    //     },
+    //     {
+    //         numeroRata: 5,
+    //         debitoResiduo: 75550.55,
+    //         importo: 85550.55,
+    //         quotaInteressi: 10000.01,
+    //         quotaCapitale: 75550.55,
+    //         debitoEstinto: 75550.55,
+    //         dataDecorrenza: "2023-06-09",
+    //         dataScadenza: "2023-06-09",
+    //         newItem: "Some data",
+    //         otherData: 123
+    //     }
+    // ]
+}
+
+module.exports = responseForSimulationPage;
